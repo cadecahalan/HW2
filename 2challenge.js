@@ -6,7 +6,7 @@ function setup() {
 
 while (true){
  var lineHoriz = random(height)
- var lineHoriz2 = lineHoriz - (lineHoriz/2)
+ var lineHoriz2 = lineHoriz - lineHoriz
  var lineWidth = random(width)
  var lineWidth2 = lineWidth + lineHoriz
  line (lineWidth, lineHoriz, lineWidth2, lineHoriz2);
